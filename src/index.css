@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "grotesk-light";
+	src: url("../public/fonts/SpaceGrotesk-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "grotesk-regular";
+	src: url("../public/fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "grotesk-semiBold";
+	src: url("../public/fonts/SpaceGrotesk-SemiBold.ttf") format("truetype");
+}
+
+:root {
+	/* Fonts */
+	--fontLight: "grotesk-light";
+	--fontRegular: "grotesk-regular";
+	--fontSemiBold: "grotesk-semiBold";
+
+	/* Colors */
+	--primaryColor: #221e3a;
+	--secondaryColor: #1e1a36;
+	--bgColor: #28223e;
+	--lightBlue: #04bec8;
+	--whiteColor: #ffffff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: var(--fontRegular);
+	background-color: var(--bgColor);
+	color: var(--whiteColor);
+	min-height: 100vh;
+}
