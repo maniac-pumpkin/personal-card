@@ -6,7 +6,7 @@ function Card() {
 			<div className="card-upper-body">
 				<div className="information">
 					<img src="./images/portrait-img.png" alt="Person" className="info-img" />
-					<h2 className="info-title">Programmer</h2>
+					<h2 className="info-title">Rudolf Schneider</h2>
 					<p className="info-caption">User interface designer and front-end developer</p>
 				</div>
 				<ul className="social-media-container">
